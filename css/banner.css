@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+
 /*the subcategory that all of the buttons in the header sit inside of in order to be put to the right side of the page*/
         .nav{
           float: right;
@@ -24,7 +27,7 @@
            text-shadow: rgba(0,0,0,.4) 0 1px 0;
            color: #ffffff;
            font-size: 120%;
-           font-family: Helvetica, Arial, Sans-Serif;
+           font-family: 'Amatic SC', cursive;
            text-decoration: none;
            text-align: center;
            margin: 2px;
@@ -51,7 +54,7 @@
             text-shadow: rgba(0,0,0,.4) 0 1px 0;
             color: #ffffff;
             font-size: 60%;
-            font-family: Helvetica, Arial, Sans-Serif;
+           font-family: 'Amatic SC', cursive;
             text-decoration: none;s
             vertical-align: top;
             margin: 3px;
@@ -84,7 +87,7 @@
              body {
                width:100%;
                margin:auto;
-               font-family: 'hipsterish', Fallback, sans-serif;
+             font-family: 'Quicksand', sans-serif;
                background-image: url("../images/background1.png");
                background-opacity: 25%;
                background-color: rgb(237, 232, 219);
@@ -93,8 +96,7 @@
 
 /*I have not been able to get the fonts configured properly but I did download the source files. It's probably really simple but I will leave this for you Jarell :)*/
              @font-face {
-             font-family: 'hipsterish';
-             src: url('hipsterish.ttf');
+            font-family: 'Quicksand', sans-serif;
              }
 
 
@@ -114,8 +116,8 @@
               -webkit-text-stroke-width: .5px;
               -webkit-text-stroke-color: white;
               color: rgb(136, 40, 74);
-              font-size: 80%;
-              font-family: 'hipsterish', Fallback, sans-serif;
+              font-size: 70%;
+             font-family: 'Quicksand', sans-serif;
               
             }
       
@@ -546,3 +548,4 @@
               }
 
           }
+
