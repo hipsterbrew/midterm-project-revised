@@ -18,9 +18,9 @@
 
 .map iframe{
 	width: 95%;
-	height:250px;
+	height:300px;
 	border:none;
-	padding: 1em 15px;
+	padding: 1em 15px 4em;
 }
 
 @media (min-width: 992px) {
@@ -41,50 +41,9 @@
 }
 
 
-.contact-grid input[type="text"],.contact-grid textarea{
-	width: 90%;
-	padding: 1em;
-	margin: 0.5em 0.5em;
-	background:none;
-	outline:none;
-	  border: 1px solid black;
-	  font-size:1em;
-	  color:black;
-}
 
-.contact-grid textarea{
-	resize:none;
-}
-.send input[type="submit"]{
-	width: 14%;
-	font-size: 1.1em;
-	background:#FD4641;
-	padding: 0.4em 0.8em;
-	text-align: center;
-	color: #fff;
-	border: none;
-	outline:none;
-	-webkit-appearance: none;
-}
-.send input[type="reset"]{
-	width: 14%;
-	font-size: 1.1em;
-	background:#FD4641;
-	padding: 0.4em 0.8em;
-	text-align: center;
-	color: #fff;
-	border: none;
-	outline:none;
-	-webkit-appearance: none;
-}
-.send input[type="submit"]:hover{
-	background:#37B48E;
-}
-.send input[type="reset"]:hover{
-	background:#37B48E;
-}
 .contact-form {
-	padding: 3em 1em;
+	padding: 3em 1em ;
 }
 .address-more {
 	color: black;
@@ -112,7 +71,7 @@
 </style>
 		</head>
 
-	<body stylr="width=100%">
+	<body>
 
 		<div class="header">
 
@@ -143,18 +102,12 @@
 				</div>
 			</div>
 </div>
-<br/><br/>
-<br/>
-
 
 <div class="container">
 		
 				<p id="bannertext"><a href="Location.html">Find Us here</a></p>
 			</div><br/>
-			<div class="content">
-
-				</div>
-<br/>
+<br>
 
 <div id="container1"> <!--content-->
 
@@ -165,35 +118,28 @@
 							<p>Hipster Brewery,</p>
 							<p>4448 Burke St,</p>
 							<p>Burnaby, BC. V5G 3J2</p>
+							<p>Hours: 3:00p.m. -- 9:00p.m.</p>
 							<p>Tel: (778) 785-3505</p>
 							<p>Email:<a href="mailto:services@hipbrew.com"> services@hipbrew.com</a></p>
+
 						</div>
 					
 				</div>
-				<div class="col-md-2 contact-grid">
-					<form autocomplete="on" accept-charset="UTF-8"  action="contactthankyou.html">	
-						<input type="text" value="Name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">
-					
-						<input type="text" value="Email" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Email';}">
-						<input type="text" value="Subject" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Subject';}">
-						
-						<textarea cols="77" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
-						<div class="send">
-							<input type="submit" value="Send">
-							<input type="reset" value="Reset">
-						</div>
-					</form>
+				<div class="col-md-2 map">
+				
+			<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:Eio0NDQ4IEJ1cmtlIFN0LCBCdXJuYWJ5LCBCQyBWNUcgM0oyLCBDYW5hZGE&key=AIzaSyCRCTH1il8xpGl_vkiYzPBMKfGBp771y2Q" allowfullscreen>
+            </iframe>
+		
 				</div>
 				
 				<div class="clearfix"> </div>
 			</div>
 
-			<div class="map">
-			<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:Eio0NDQ4IEJ1cmtlIFN0LCBCdXJuYWJ5LCBCQyBWNUcgM0oyLCBDYW5hZGE&key=AIzaSyCRCTH1il8xpGl_vkiYzPBMKfGBp771y2Q" allowfullscreen>
-            </iframe>
-			</div>
+			
 		</div>
+		<br><br><br><br>
 	<!--//content-->
+
 
 			<div class="footer">
 	<div class="container">
@@ -205,4 +151,3 @@
 </div>
 	</body>
 </html>
-
